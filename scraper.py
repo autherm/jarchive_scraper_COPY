@@ -97,13 +97,4 @@ def get_clue_attribs(clue, cats):
 scrape_season(base_url+"showseason.php?season=30")
 
 
-###Test on sample of episodes in test directory
-##import os
-##root = r'F:\Google Drive\Documents\Github\jarchive_scraper\test'
-##
-##for file in os.listdir(root):
-##    filename = "file:\\\\\\" + os.path.join(root,file)
-##    print filename
-##    scrape_episode(filename, file, file)
-
 
